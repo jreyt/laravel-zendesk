@@ -1,0 +1,23 @@
+{
+    "name": "jreyt/zendesk-laravel",
+    "type": "library",
+    "description": "Laravel wrapper for Zendesk API Client",
+    "keywords": ["zendesk","laravel"],
+    "authors": [
+        {
+            "name": "John Rey Tumbiga",
+            "email": "johnrey.tumbiga@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.2",
+        "zendesk/zendesk_api_client_php": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jreyt\\Zendesk\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
